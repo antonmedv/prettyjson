@@ -1,5 +1,7 @@
 # 🧢 PrettyJSON
 
+[![Build Status](https://travis-ci.org/antonmedv/prettyjson.svg?branch=master)](https://travis-ci.org/antonmedv/prettyjson)
+
 Pretty JSON printer for [fx](https://github.com/antonmedv/fx)
 
 ## Install
