@@ -50,7 +50,7 @@ function print(v, space = 2) {
       const len = entries.length
       let i = 0
       for (let [key, value] of entries) {
-        yield indent(chalk.blue.bold(`"${key}"`) + ': ' + print(value, space), space)
+        yield indent(chalk.blue.bold(JSON.stringify(key)) + ': ' + print(value, space), space)
         yield i++ < len - 1 ? ',\n' : '\n'
       }
       yield '}'
