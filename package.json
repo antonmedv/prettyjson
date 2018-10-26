@@ -1,6 +1,6 @@
 {
   "name": "@medv/prettyjson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pretty print JSON library",
   "main": "index.js",
   "scripts": {
